@@ -102,21 +102,24 @@
                 class="nav-link"
                 href="index3.html"
                 style="font-size: 15px; margin-left: 30px"
-                ><b>Enroll Now</b></a
+                ><b>Contact Us</b></a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
+    <img src="contact-us.jpg" style="margin-top: 0px; margin-left: 100px" />
     <div class="container">
       <div class="text-dark pt-5">
-        <h1 class="display-1">Enroll Now!</h1>
+        <p style="font-family: Lucida Sans; font-size: 100%">
+          Please use the form below to contact us if you have any queries or
+          inquiries. We will be pleased to help you as soon as possible.
+        </p>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-6">
         <form>
-          <div class="form-group">
+          <div class="form-group mt-5">
             <label for="name">Name:</label>
             <input
               type="text"
@@ -126,45 +129,29 @@
             />
           </div>
           <div class="form-group mt-3">
-            <label for="age">Age:</label>
+            <label for="email">Email:</label>
             <input
-              type="text"
-              id="age"
+              type="email"
+              id="email"
               class="form-control"
-              placeholder="ex. 7"
+              placeholder="ex. xxxxxxx23@gmail.com"
             />
           </div>
           <div class="form-group mt-3">
-            <label for="birthdate">Birthdate:</label>
-            <input
-              type="date"
-              id="birthdate"
+            <label for="your_message">Your Message:</label>
+            <textarea
+              style="width: 500px"
+              rows="7"
               class="form-control"
-              placeholder="mm/dd/yyyy"
-            />
+              placeholder="Write your message here"
+            ></textarea>
           </div>
-
-          <div class="form-group mt-3">
-            <label for="grade-level">Grade level:</label>
-            <select name="grade-level" id="grade-level">
-              <option>Select your Grade level:</option>
-              <option value="grade-one">Grade One</option>
-              <option value="grade-two">Grade Two</option>
-              <option value="grade-three">Grade Three</option>
-              <option value="grade-four">Grade Four</option>
-              <option value="grade-five">Grade Five</option>
-              <option value="grade-six">Grade Six</option>
-            </select>
-          </div>
-          <div class="form-group mt-3">
-            <label for="address">Address:</label>
-            <input
-              type="text"
-              id="address"
-              class="form-control"
-              placeholder="ex. Hagtu, Mabinay Negros Oriental"
-            />
-          </div>
+          <br />
+          <input
+            class="btn btn-success hover-button"
+            type="send_message"
+            value="Send message"
+          />
         </form>
       </div>
     </div>
